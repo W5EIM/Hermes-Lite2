@@ -1,0 +1,110 @@
+-+
+; Fitter Summary                                                                   ;
++------------------------------------+---------------------------------------------+
+; Fitter Status                      ; Successful - Fri Oct 23 13:50:23 2026       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; hermeslite                                  ;
+; Top-level Entity Name              ; hermeslite                                  ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE22E22C8                                ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 21,271 / 22,320 ( 95 % )                    ;
+;     Total combinational functions  ; 17,087 / 22,320 ( 77 % )                    ;
+;     Dedicated logic registers      ; 16,463 / 22,320 ( 74 % )                    ;
+; Total registers                    ; 16506                                       ;
+; Total pins                         ; 80 / 80 ( 100 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 424,464 / 608,256 ( 70 % )                  ;
+; Embedded Multiplier 9-bit elements ; 92 / 132 ( 70 % )                           ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Settings                                                                                                                                    ;
++--------------------------------------------------------------------+---------------------------------------+---------------------------------------+
+; Option                                                             ; Setting                               ; Default Value                         ;
++--------------------------------------------------------------------+---------------------------------------+---------------------------------------+
+; Device                                                             ; EP4CE22E22C8                          ;                                       ;
+; Minimum Core Junction Temperature                                  ; 0                                     ;                                       ;
+; Maximum Core Junction Temperature                                  ; 85                                    ;                                       ;
+; Router Timing Optimization Level                                   ; MAXIMUM                               ; Normal                                ;
+; Placement Effort Multiplier                                        ; 4.0                                   ; 1.0                                   ;
+; Fit Attempts to Skip                                               ; 0                                     ; 0.0                                   ;
+; Device I/O Standard                                                ; 3.3-V LVCMOS                          ;                                       ;
+; SDO Pin                                                            ; On                                    ;                                       ;
+; SCE Pin                                                            ; On                                    ;                                       ;
+; DCLK Pin                                                           ; On                                    ;                                       ;
+; Data[0] Pin                                                        ; On                                    ;                                       ;
+; Perform Physical Synthesis for Combinational Logic for Performance ; On                                    ; Off                                   ;
+; Fitter Effort                                                      ; Standard Fit                          ; Auto Fit                              ;
+; Use smart compilation                                              ; Off                                   ; Off                                   ;
+; Enable parallel Assembler and Timing Analyzer during compilation   ; On                                    ; On                                    ;
+; Enable compact report table                                        ; Off                                   ; Off                                   ;
+; Auto Merge PLLs                                                    ; On                                    ; On                                    ;
+; Perform Clocking Topology Analysis During Routing                  ; Off                                   ; Off                                   ;
+; Router Effort Multiplier                                           ; 1.0                                   ; 1.0                                   ;
+; Optimize Hold Timing                                               ; All Paths                             ; All Paths                             ;
+; Optimize Multi-Corner Timing                                       ; On                                    ; On                                    ;
+; Power Optimization During Fitting                                  ; Normal compilation                    ; Normal compilation                    ;
+; SSN Optimization                                                   ; Off                                   ; Off                                   ;
+; Optimize Timing                                                    ; Normal compilation                    ; Normal compilation                    ;
+; Optimize Timing for ECOs                                           ; Off                                   ; Off                                   ;
+; Regenerate Full Fit Report During ECO Compiles                     ; Off                                   ; Off                                   ;
+; Optimize IOC Register Placement for Timing                         ; Normal                                ; Normal                                ;
+; Limit to One Fitting Attempt                                       ; Off                                   ; Off                                   ;
+; Final Placement Optimizations                                      ; Automatically                         ; Automatically                         ;
+; Fitter Aggressive Routability Optimizations                        ; Automatically                         ; Automatically                         ;
+; Fitter Initial Placement Seed                                      ; 1                                     ; 1                                     ;
+; Periphery to Core Placement and Routing Optimization               ; Off                                   ; Off                                   ;
+; PCI I/O                                                            ; Off                                   ; Off                                   ;
+; Weak Pull-Up Resistor                                              ; Off                                   ; Off                                   ;
+; Enable Bus-Hold Circuitry                                          ; Off                                   ; Off                                   ;
+; Auto Packed Registers                                              ; Auto                                  ; Auto                                  ;
+; Auto Delay Chains                                                  ; On                                    ; On                                    ;
+; Auto Delay Chains for High Fanout Input Pins                       ; Off                                   ; Off                                   ;
+; Allow Single-ended Buffer for Differential-XSTL Input              ; Off                                   ; Off                                   ;
+; Treat Bidirectional Pin as Output Pin                              ; Off                                   ; Off                                   ;
+; Perform Physical Synthesis for Combinational Logic for Fitting     ; Off                                   ; Off                                   ;
+; Perform Register Duplication for Performance                       ; Off                                   ; Off                                   ;
+; Perform Logic to Memory Mapping for Fitting                        ; Off                                   ; Off                                   ;
+; Perform Register Retiming for Performance                          ; Off                                   ; Off                                   ;
+; Perform Asynchronous Signal Pipelining                             ; Off                                   ; Off                                   ;
+; Physical Synthesis Effort Level                                    ; Normal                                ; Normal                                ;
+; Logic Cell Insertion - Logic Duplication                           ; Auto                                  ; Auto                                  ;
+; Auto Register Duplication                                          ; Auto                                  ; Auto                                  ;
+; Auto Global Clock                                                  ; On                                    ; On                                    ;
+; Auto Global Register Control Signals                               ; On                                    ; On                                    ;
+; Reserve all unused pins                                            ; As input tri-stated with weak pull-up ; As input tri-stated with weak pull-up ;
+; Synchronizer Identification                                        ; Auto                                  ; Auto                                  ;
+; Enable Beneficial Skew Optimization                                ; On                                    ; On                                    ;
+; Optimize Design for Metastability                                  ; On                                    ; On                                    ;
+; Force Fitter to Avoid Periphery Placement Warnings                 ; Off                                   ; Off                                   ;
+; Enable input tri-state on active configuration pins in user mode   ; Off                                   ; Off                                   ;
++--------------------------------------------------------------------+---------------------------------------+---------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.64        ;
+; Maximum used               ; 16          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   5.7%      ;
+;     Processor 3            ;   5.2%      ;
+;     Processor 4            ;   4.9%      ;
+;     Processor 5            ;   4.8%      ;
+;     Processor 6            ;   4.7%      ;
+;     Processor 7            ;   4.6%      ;
+;     Processor 8            ;   4.5%      ;
+;     Processor 9            ;   3.7%      ;
+;     Processors 10-16       ;   3.7%      ;
++----------------------------+-------------+
+
